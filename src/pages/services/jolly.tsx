@@ -9,7 +9,7 @@ import HomeHero from '@/components/HomeHero'
 import Image from 'next/image'
 import sherlock from '@/bg/sherlock.jpg'
 import paintboy from '@/bg/paintboy.jpg'
-import HeroSteam from './steam/herosteam'
+import HeroSteam from '../../components/herosteam'
 
 export default function jolly() {
   return (

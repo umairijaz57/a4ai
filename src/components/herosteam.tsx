@@ -3,8 +3,8 @@ import React from 'react'
 export default function HeroSteam({src, heading, para}: {src: string, heading: string, para: string}){
   return (
 
-      <div className="max-w-full bg-white w-full flex gap-8 lg:gap-12">
-        <div className="hidden sm:flex justify-center lg:justify-end">
+      <div className="max-w-full bg-white w-full flex flex-col sm:flex-row gap-8 lg:gap-12">
+        <div className="flex  justify-center lg:justify-end">
           <div className="relative flex flex-col w-full max-w-md">
             <img
               src={src}

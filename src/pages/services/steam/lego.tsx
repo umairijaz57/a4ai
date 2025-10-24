@@ -9,7 +9,7 @@ import Testimonials from '@/components/Testimonials';
 import React from 'react';
 import Image from 'next/image';
 import bytebuddy from "@/bg/bytebuddy.jpg"
-import HeroSteam from './herosteam';
+import HeroSteam from '../../../components/herosteam';
 
 const FirstLegoLeaguePage = () => {
   return (

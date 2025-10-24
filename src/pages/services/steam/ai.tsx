@@ -7,7 +7,7 @@ import { aiTestimonials, TestimonialsSection } from "@/components/Parents";
 import Image from "next/image";
 import React from "react";
 import agentv from "@/bg/agentv.jpg";
-import HeroSteam from "./herosteam";
+import HeroSteam from "../../../components/herosteam";
 
 export default function aforai() {
   return (

@@ -9,7 +9,7 @@ import Sherlockhero from "@/components/sherlockhero";
 import Image from "next/image";
 import React from "react";
 import sherlock from "@/bg/sherlock.jpg"
-import HeroSteam from "./herosteam";
+import HeroSteam from "../../../components/herosteam";
 
 export default function jrsherlock() {
   return (
