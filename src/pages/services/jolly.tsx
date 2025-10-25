@@ -16,7 +16,7 @@ export default function jolly() {
     <main className="min-h-screen bg-blue-50">
       <Navbar />
       <HomeHero/>
-      <HeroSteam src='/masscot/jolly.png' heading="Jolly Phonics" para='FUN AND ENGAGING PHONIC LEARNING FOR KIDS! ORKSHEET, VIDEOS, TIPS TO BUILD STRONG READING SKILLS' />
+      <HeroSteam src='/masscot/jolly.png' name='Paint Boy' heading="Jolly Phonics" para='FUN AND ENGAGING PHONIC LEARNING FOR KIDS! ORKSHEET, VIDEOS, TIPS TO BUILD STRONG READING SKILLS' />
       <div className="max-w-full mx-auto px-x ">
         <section className="pt-12">
           <JollyActivities />

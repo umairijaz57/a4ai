@@ -13,7 +13,7 @@ export default function aforai() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
-      <HeroSteam src="/masscot/agentvirtual.png" heading='A is for AI' para='AI is a part of kids LIVES, Especially Generation Alpha ("AI NATIVES"). They Trust AI tools like chatGPT alot. We meed to  guide them on AI basics and ethics for a balanced understanding'  />
+      <HeroSteam src="/masscot/agentvirtual.png" name="Agent Virtual" heading='A is for AI' para='AI is a part of kids LIVES, Especially Generation Alpha ("AI NATIVES"). They Trust AI tools like chatGPT alot. We meed to  guide them on AI basics and ethics for a balanced understanding'  />
       
 
       <div className="max-w-full mx-auto px-6 ">

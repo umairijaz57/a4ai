@@ -15,7 +15,7 @@ export default function jrsherlock() {
   return (
     <main className="min-h-screen bg-blue-50">
       <Navbar />
-      <HeroSteam src="/masscot/cyberninja.png" heading='Juninor Sherlock Holmes' para='Immersive advanture into the mysterious world of the information security where history, puzzles and codes reveal the secrets of data hiding and the roots of the modern cyberSecurity'  />
+      <HeroSteam src="/masscot/cyberninja.png" name="Cyber Ninja" heading='Juninor Sherlock Holmes' para='Immersive advanture into the mysterious world of the information security where history, puzzles and codes reveal the secrets of data hiding and the roots of the modern cyberSecurity'  />
 
 
       <div className="max-w-full mx-auto px-6 ">

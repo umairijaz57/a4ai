@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function HeroSteam({src, heading, para}: {src: string, heading: string, para: string}){
+export default function HeroSteam({src, name, heading, para}: {src: string, name: string, heading: string, para: string}){
   return (
 
       <div className="max-w-full bg-white w-full flex flex-col sm:flex-row gap-8 lg:gap-12">
@@ -11,11 +11,15 @@ export default function HeroSteam({src, heading, para}: {src: string, heading: s
               alt="Friendly robot character speaking"
               className="w-full h-auto flip transform -scale-x-100"
             />
+            <div className='flex justify-center py-4'>
+            <h1 className='text-2xl bg-blue-900 font-bold py-2 px-4 text-white rounded-2xl text-center'>{name}</h1>
+            </div>
           </div>
         </div>
 
         <div className="flex justify-center lg:justify-start items-start sm:mt-2 md:mt-6 lg:mt-12">
-            <div className=" rounded-full shadow-lg bg-blue-900 p-8 md:p-12 max-w-3xl border ">
+            <div className="shadow-lg bg-blue-900 p-8 md:p-12 max-w-3xl border 
+            rounded-tl-full rounded-tr-full rounded-br-full rounded-bl-none">
               <div className="text-center space-y-auto text-white">
                 <h1 className="text-3xl md:text-4xl font-bold  text-balance">{heading}</h1>
                 <p className="text-base md:text-lg leading-relaxed capitalize">

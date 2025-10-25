@@ -25,7 +25,7 @@ export default function stemtour() {
         <div className="flex justify-center lg:justify-start items-start sm:mt-2 md:mt-6 lg:mt-12">
           <div className=" rounded-full shadow-lg opacity-60 bg-blue-900 p-8 md:p-12 max-w-3xl border ">
             <div className="text-center space-y-auto text-white">
-              <h1 className="text-3xl md:text-4xl font-bold  text-balance">STEAM TOUR: A day at NUST</h1>
+              <h1 className="text-3xl md:text-4xl font-bold  text-balance">NUST STEAM TOUR: A day at NUST</h1>
               <p className="text-base md:text-lg leading-relaxed capitalize">
                 Join us and discover the wonders of No.1 ranked university in Pakistan.
               </p>
@@ -34,16 +34,16 @@ export default function stemtour() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-around py-20">
-        <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg">
+      <div className="flex flex-col md:flex-row justify-around py-20 gap-6">
+        <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg ">
           <h1 className="text-xl text-blue-900">Why STEM?</h1>
-          <p>
+          <p className="text-black">
             96% of jobs are generated from STEM
           </p>
         </div>
         <div className="bg-blue-50 font-bold border-l-blue-600 border-l-4 p-4 rounded-l-lg">
           <h1 className="text-xl text-blue-900">Why STEM Tour</h1>
-          <p className="">
+          <p className="text-black">
             A short three hour tour of NUST labs transformed the opinion <br /> of 45% percent of grade 5 students
           </p>
         </div>

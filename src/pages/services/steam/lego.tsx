@@ -16,7 +16,7 @@ const FirstLegoLeaguePage = () => {
     <main className="min-h-screen bg-blue-50">
       <Navbar />
                   
-      <HeroSteam src="/masscot/bytebuddyR.png" heading='First Lego League' para='First Lego League Renowned Internation stemp competition held across 110 countries. we offer our local lego league at your campus'  />
+      <HeroSteam src="/masscot/bytebuddyR.png" name='Byte Buddy' heading='First Lego League' para='First Lego League Renowned Internation stemp competition held across 110 countries. we offer our local lego league at your campus'  />
       <div className="max-w-full mx-auto px-6 ">
         <section className="mb-12 py-12">
           <LegoActivities />

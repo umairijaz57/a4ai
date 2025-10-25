@@ -27,7 +27,7 @@ export default function WhatWeOffer() {
     // },
     {
         id: "STEAM Tour",
-        title: "STEAM Tour",
+        title: "NUST STEAM Tour",
         description:
         "Explore Pakistan’s No. 1 ranked university through an exciting STEM experience. Meet top researchers, join hands-on competitions, and enjoy interactive lab tours that make learning fun and inspiring.",
         href: "/services/stemtour ",
@@ -35,8 +35,7 @@ export default function WhatWeOffer() {
     {
         id: "Joly-Phonics",
         title: "Jolly Phonics",
-        description:
-        "Mentoring Young Minds helps college students prepare for top universities in Pakistan and abroad. From career counselling and profile building to internships, languages, and mentorship with NUST’s top performers it equips you with skills and direction to stand out globally.",
+        description:"Jolly Phonics is a fun and interactive way for young children to learn English through letter sounds, actions, and songs. Instead of memorizing alphabets, they learn to read and write words naturally by blending sounds. It builds strong pronunciation, spelling, and confidence from an early age.",
       href: "/services/jolly ",
     },
   ]
